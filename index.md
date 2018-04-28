@@ -52,6 +52,7 @@ For other games see ['I need help'](#i-need-help).
 - [Mario Kart 8](http://compat.cemu.info/wiki/Mario_Kart_8) (720p) [[Showcase](https://youtu.be/E6Z-1SwSUtI)]
 - [Mario Tennis: Ultra Smash](http://compat.cemu.info/wiki/Mario_Tennis:_Ultra_Smash) (720p)
 - [Minecraft: Story Mode](http://compat.cemu.info/wiki/Minecraft:_Story_Mode) (720p)
+- [Minecraft: Wii U Edition](http://compat.cemu.info/wiki/Minecraft:_Wii_U_Edition) (720p)
 - [Monster Hunter 3 Ultimate](http://compat.cemu.info/wiki/Monster_Hunter_3_Ultimate) (1080p)
 - [NBA 2K13](http://compat.cemu.info/wiki/NBA_2K13) (720p)
 - [New Super Luigi U](http://compat.cemu.info/wiki/New_Super_Luigi_U) (720p)
