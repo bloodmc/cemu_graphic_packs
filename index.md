@@ -69,6 +69,7 @@ For other games see ['I need help'](#i-need-help).
 - [Pokkén Tournament](http://compat.cemu.info/wiki/Pokk%C3%A9n_Tournament) (720p)
 - [Project Zero: Maiden of Black Water](http://compat.cemu.info/wiki/Project_Zero:_Maiden_of_Black_Water) (720p)
 - [Puyo Puyo Tetris](http://compat.cemu.info/wiki/Puyo_Puyo_Tetris) (1080p)
+- [BIT.TRIP Presents... Runner2: Future Legend of Rhythm Alien](http://compat.cemu.info/wiki/BIT.TRIP_Presents..._Runner2:_Future_Legend_of_Rhythm_Alien) (720p)
 - [Sanatory Hallways](http://compat.cemu.info/wiki/Sanatory_Hallways) (720p)
 - [Scribblenauts Unlimited](http://compat.cemu.info/wiki/Scribblenauts_Unlimited) (720p)
 - [Scribblenauts Unmasked: A DC Comics Adventure](http://compat.cemu.info/wiki/Scribblenauts_Unmasked:_A_DC_Comics_Adventure) (720p)
