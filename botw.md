@@ -4,9 +4,9 @@
 
 ![](https://cdn.discordapp.com/attachments/207547103726010368/372172658118492160/unknown.png)
 
-Update your game to v1.3.1/v112 either manually or through Cemu's UI. The latest version, v1.4.0/v176 works fine but many packs are incompatible.
+Update your game to the latest version (being v1.5.0, interally 208) through Cemu's UI.
 
-### Can I use [insert piracy program here] to download the upda-
+### Can I use M-
 
 No.
 
@@ -61,6 +61,12 @@ Disable the No Master Mode Triforce graphic pack.
 
 Follow [this guide](https://redd.it/6qwmon) to reduce the issue.
 
+An alternative is to use the glitch artifacts pack in order to reduce it.
+
+### I'm using Intel and {A} and {B}. Can't forget {C}. Also, when will {D} be fixed?
+
+Wait until the OpenGL core profile update, then we'll talk.
+
 ### The clouds are facing another direction
 
 ![](https://cdn.discordapp.com/attachments/207547103726010368/372204003649388554/unknown.png)
@@ -71,4 +77,4 @@ There is no current fix towards this issue.
 
 ![](https://cdn.discordapp.com/attachments/207547103726010368/372246903414325258/unknown.png)
 
-This is a Cemu issue, not a graphic pack issue.
+This is an issue with Cemu's texture cache. Wait until the rewrite.
