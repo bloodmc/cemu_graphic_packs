@@ -1,16 +1,18 @@
 ### **Download Instructions**  
 
-Only download the graphic packs from the buttons above. Please delete the old ones first before adding in the new ones.
+Only download the graphic packs from the buttons above. Please delete any old graphic packs first before extracting the zip and moving it's files into your Cemu `graphicPacks` folder.  
+Afterwards, you'll need to enable the graphic packs in the Cemu interface.
 
-**Missing the resolution packs on this Github? That's because we now automatically build the resolution packs. Follow the download instructions to download them for all the supported resolutions.**
+##### **If you want Graphic Packs for versions under Cemu 1.8.0 you'll need to use legacy packs, which you can download [here](https://github.com/slashiee/cemu_graphic_packs/releases/download/1/graphicPacks.zip).**
 
 
-For Breath of the Wild specific help, please refer to [this FAQ](https://{{site.github.owner_name}}.github.io/cemu_graphic_packs/botw). 
-For Graphic pack descriptions, please refer to [this Cemu wiki page](http://compat.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild_Graphic_Packs). 
-For other games see ['I need help'](#i-need-help).
-##### Keep in mind that all of these graphic packs are a work in progress.  
-##### If there's a resolution missing it's because it was done on purpose and the game natively runs on that resolution.  
-##### If you want Graphic Packs for < Cemu 1.8.0 you need to use legacy packs, which you can download [here](https://github.com/slashiee/cemu_graphic_packs/releases/download/1/graphicPacks.zip).
+### **FAQ's and help**
+For Breath of the Wild specific help, please refer to [this FAQ](https://{{site.github.owner_name}}.github.io/cemu_graphic_packs/botw).  
+For Graphic pack descriptions, please refer to [this Cemu wiki page](http://compat.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild_Graphic_Packs).  
+For help creating your own graphic packs, see ['I need help'](#i-need-help).
+
+To answer a commonly asked question: The 219 and 489 behind the graphic pack folders are 21:9 and 48:9 aspect ratio's respectively.
+
 
 ### **Games that currently have graphic packs (with native resolution)**
 #### We don't build resolution packs for the native resolution the game runs at.
@@ -112,35 +114,3 @@ If you need help with the basics, follow the [tutorial](https://github.com/slash
 If you are willing to help contribute, feel free to [make a pull request](https://github.com/slashiee/cemu_graphic_packs/compare) with your edits. For beginners, please follow the [tutorial](https://github.com/slashiee/cemu_graphic_packs/wiki/How-to-create-Graphic-Packs) on the compatiblity wiki. For getting into more advanced stuff, feel free to [set up NVIDIA Nsight](https://github.com/slashiee/cemu_graphic_packs/issues/38#issuecomment-309265292). Make sure that you're using your fork of the repo, and that you update all resolutions that are available for that game.
 
 If you need help with finding resolutions besides from 1280x720/1920x1080, [Cemu Viewport Skimmer](https://github.com/mhvuze/CemuViewportSkimmer), [GPU PerfStudio](http://gpuopen.com/archive/gpu-perfstudio/), or [NVIDIA Nsight](http://www.nvidia.com/object/nsight.html) can help you do so. There's currently no support for RenderDoc by Cemu.
-
-### **Credits** <!-- if you change this specific fallback text you also need to change the code otherwise it won't work --->
-#### Here's only a few of the people that have helped to create these packs!
-**slashiee** - 572 commits: 179,410 line additions and 246,216 line deletions.  
-**Getdls** - 170 commits: 156,894 line additions and 74,292 line deletions.  
-**JamieeLee** - 86 commits: 45,879 line additions and 46,245 line deletions.  
-**Crementif** - 62 commits: 54,538 line additions and 25,500  line deletions.  
-**alexkiri** - 51 commits: 84,025 line additions and 19,240 line deletions.  
-**NAVras-Z** - 41 commits: 37,770 line additions and 18,382 line deletions.  
-**rajkosto** - 24 commits: 1,239 line additions and 215 line deletions.  
-**Darkemaste** - 23 commits: 14,684 line additions and 747 line deletions.  
-**JoelAlone** - 20 commits: 22,591 line additions and 1,845 line deletions.  
-**Xalphenos** - 12 commits: 484 line additions and 154 line deletions.  
-**MelonSpeedruns** - 11 commits: 190 line additions and 132 line deletions.  
-**nosklo** - 8 commits: 1,765 line additions and 43 line deletions.  
-**SteveLeafo** - 7 commits: 191 line additions and 10 line deletions.  
-**lasyan3** - 4 commits: 93 line additions and 5 line deletions.  
-**CeIIHunter** - 3 commits: 1,350 line additions and 1,283 line deletions.  
-**epigramx** - 3 commits: 562 line additions and 392 line deletions.  
-**fabiograssiotto** - 2 commits: 168 line additions and 86 line deletions.  
-**SwooshyCueb** - 2 commits: 851 line additions and 990 line deletions.  
-**valgusk** - 2 commits: 1,001 line additions and 44 line deletions.  
-**cypher80b** - 2 commits: 5,497 line additions and 4,565 line deletions.  
-**emoose** - 1 commit: 7 line additions and 8 line deletions.  
-**riperiperi** - 1 commit: 103 line additions and 22 line deletions.  
-**tails101** - 1 commit: 10 line additions and 0 line deletions.  
-**kageurufu** - 1 commit: 231 line additions and 153 line deletions.  
-**tet666** - 1 commit: 135 line additions and 135 line deletions.  
-**Darksim150** - 1 commit: 1 line additions and 1 line deletions.  
-**offline2007** - 1 commit: 1 line additions and 1 line deletions.  
-**And the other people that have made pull requests or helped us test these!**
-##### Your browser doesn't support HTML5 which is recommended for viewing certain elements.
