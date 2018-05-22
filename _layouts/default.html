@@ -7,6 +7,30 @@
 		<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+		<style>
+			@media print, screen and (max-width: 480px) {
+				nav {
+					display: flex !important;
+					background: none !important;
+					justify-content: center;
+				}
+				#header nav .fork,li span {display: none !important;}
+				#header nav li a {display: list-item;}
+				#header:hover {
+					margin-top: 0px !important;
+					height: auto;
+					
+				}
+				#menuMobile {display: inline !important;}
+				#menuMobile div {
+				    width: 30px;
+					height: 4px;
+					background-color: gray;
+					margin: 6px 0;
+				}
+				#header:not(:hover) nav li {display: none !important;}
+			}
+		</style>
 		<!--[if lt IE 9]>
 			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -29,6 +53,11 @@
 	<body>
 		<div id="header">
 			<nav>
+				<span id="menuMobile" style="display: none; position: absolute; top: 22px; left: 8px;">
+					<div></div>
+					<div></div>
+					<div></div>
+				</span>
 				<li class="fork" style="position: absolute; left: 12px;"><a href="{{ site.github.repository_url }}" style="margin-left:6px;background-color: #434343;border-color: #191919;">Help us on Github!</a></li>
 				<!-- Has the latest release link to fall back on, but if javascript and fetching is enabled and supported, the href will change -->
 				<li class="downloads" style="max-width: 100% !important; float: left; font-size:14px;font-family:OpenSansLight,Helvetica Neue,Helvetica,Arial,sans-serif;line-height:50px;list-style:none;text-shadow:0px 1px 0px rgba(0,0,0,0.2);">
@@ -42,7 +71,7 @@
 		<div class="wrapper">
 			<section style="padding:30px 0 0 0 !important">
 			<div id="title">
-				<h1><strong>Cemu Graphic Packs</strong></h1>
+				<h1><strong><a style="text-decoration:none; color: #e8e8e8;" href="{{site.url}}">Cemu Graphic Packs</a></strong></h1>
 				<p>{{ site.description | default: site.github.project_tagline }}</p>
 				<hr>
 				<span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
@@ -51,19 +80,21 @@
 			{{ content }}
 			</section>
 		</div>
-
-		<div style="height:100%;width:90%;margin:0 5% 0 5%;display:inline-block !important;">
-			<div id="credits" style="font-size:0.7vw; display: flex; justify-content: center; flex-wrap: wrap;">
-			{% for contributor in site.github.contributors %}
-				<figure style="width: 80px; margin:5px 12px; text-align:center; padding:0;">
-					<a href="https://github.com/slashiee/cemu_graphic_packs/commits?author={{contributor.login}}">
-						<img src="{{contributor.avatar_url}}" alt="{{contributor.login}}'s avatar" style="width:100%; height=100%"/>
-						<figcaption style="text-overflow: ellipsis; overflow: hidden;">{{contributor.login}}<br/></figcaption>
-					</a>
-					<p style="color:#c5c5c5; margin-bottom:0; font-size: 0.8em;">{{contributor.contributions}} commits</p>
-				</figure>
-			{% endfor %}
+		{% if page.path == "index.md" %}
+			<h2 style="text-align: center; margin-top: 60px;">These graphic packs are made by these contributors!</h2>
+			<div style="height:100%;width:90%;margin:0 5% 0 5%;display:inline-block !important;">
+				<div id="credits" style="display: flex; justify-content: center; flex-wrap: wrap;">
+				{% for contributor in site.github.contributors %}
+					<figure style="width: 80px; margin:5px 12px; text-align:center; padding:0;">
+						<a href="https://github.com/slashiee/cemu_graphic_packs/commits?author={{contributor.login}}">
+							<img src="{{contributor.avatar_url}}" alt="{{contributor.login}}'s avatar" style="width:100%; height=100%"/>
+							<figcaption style="text-overflow: ellipsis; overflow: hidden;">{{contributor.login}}<br/></figcaption>
+						</a>
+						<p style="color:#c5c5c5; margin-bottom:0; font-size: 0.8em;">{{contributor.contributions}} commits</p>
+					</figure>
+				{% endfor %}
+				</div>
 			</div>
-		</div>
+		{% endif %}
 	</body>
 </html>
