@@ -16,14 +16,6 @@ No.
 
 Disable anisotropic filtering for Cemu specifically.
 
-### Heatwaves are a black mess/Bloom is blocky/Hearts and stamina are corrupted from using Pro+ HUD
-
-![](https://cdn.discordapp.com/attachments/207547103726010368/372172841195536404/unknown.png)
-![](https://cdn.discordapp.com/attachments/207547103726010368/372172857154732042/unknown.png)
-![](https://cdn.discordapp.com/attachments/207547103726010368/372222567731429386/unknown.png)
-
-Update the graphic packs.
-
 ### Textures have turned into skittles
 
 ![](https://cdn.discordapp.com/attachments/207547103726010368/372246903414325258/unknown.png)
@@ -42,7 +34,7 @@ Disable the No Master Mode Triforce pack for Cemu versions below 1.14.0. For Cem
 
 Disable GPUFenceSkip in the game profile and in FPS++ and manually enable it via Cemuhook once the save file has loaded.
 
-### I'm on AMD and the grass has black dots around it
+### I'm on AMD/Intel and the shadows looks terrible
 
 ![](https://cdn.discordapp.com/attachments/207547103726010368/372204881496375296/unknown.png)
 
@@ -52,7 +44,7 @@ Use the AMD Shadows graphic pack.
 
 ![](https://cdn.discordapp.com/attachments/207547103726010368/372205190901792778/unknown.png)
 
-Use the AMD Lights graphic pack.
+Use the AMD Lights graphic pack. No clue if this same issue occurs on 1.14.0.
 
 ### I'm on NVIDIA and the explosion smoke doesn't look like what's normally seen on Wii U/Switch/AMD
 
