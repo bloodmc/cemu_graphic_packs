@@ -24,12 +24,17 @@ Disable anisotropic filtering for Cemu specifically.
 
 Update the graphic packs.
 
-### Textures have turned into skittles/There's a black box in the bottom left corner when on Master Mode
+### Textures have turned into skittles
 
 ![](https://cdn.discordapp.com/attachments/207547103726010368/372246903414325258/unknown.png)
-![](https://cdn.discordapp.com/attachments/207547103726010368/372222832127639552/unknown.png)
 
 Update Cemu to at least 1.14.0.
+
+### There's a black box in the bottom left corner when on Master Mode
+
+![](https://cdn.discordapp.com/attachments/207547103726010368/372222832127639552/unknown.png)
+
+Disable the No Master Mode Triforce pack for Cemu versions below 1.14.0. For Cemu versions 1.14.0 and above, this *should* be fixed.
 
 ### The water has turned into milk
 
