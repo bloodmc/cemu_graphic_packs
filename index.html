@@ -19,7 +19,6 @@ js:
 
 {% comment %} Get the latest release zip {% endcomment %}
 {% capture newReleaseVersion %} {{ site.github.latest_release.assets[0].browser_download_url | slice: 71, 3}} {% endcapture %}
-{% assign newReleaseVersion = newReleaseVersion | plus:1 %}
 
 
 <div id="download-gfx-panel" class="jumbotron">
